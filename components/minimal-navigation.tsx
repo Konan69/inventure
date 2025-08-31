@@ -20,6 +20,7 @@ export function MinimalNavigation() {
     { href: "/", label: "Home" },
     { href: "/community", label: "Community" },
     { href: "/contact", label: "Contact" },
+    { href: "/blog", label: "Blog" },
   ];
 
   return (

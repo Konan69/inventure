@@ -35,10 +35,10 @@ export interface MockCategory {
 
 // Mock admin credentials
 export const MOCK_ADMIN = {
-  email: "admin@iinventure.com",
+  email: "admin@inventure.com",
   password: "admin123",
   id: "mock-admin-id",
-  name: "iinventure Team",
+  name: "inventure Team",
 }
 
 // Mock categories
@@ -136,7 +136,7 @@ AI is not replacing recruiters—it's empowering them to make better decisions f
     updated_at: "2024-01-15T10:00:00Z",
     published_at: "2024-01-15T10:00:00Z",
     profiles: {
-      full_name: "iinventure Team",
+      full_name: "inventure Team",
       avatar_url: "/placeholder.svg?height=100&width=100",
     },
     categories: [
@@ -222,7 +222,7 @@ This isn't just a pricing model—it's a new way of thinking about how recruitme
     updated_at: "2024-01-10T14:30:00Z",
     published_at: "2024-01-10T14:30:00Z",
     profiles: {
-      full_name: "iinventure Team",
+      full_name: "inventure Team",
       avatar_url: "/placeholder.svg?height=100&width=100",
     },
     categories: [
@@ -318,7 +318,7 @@ Building a high-performance recruiting team is an ongoing process that requires 
     updated_at: "2024-01-05T09:15:00Z",
     published_at: "2024-01-05T09:15:00Z",
     profiles: {
-      full_name: "iinventure Team",
+      full_name: "inventure Team",
       avatar_url: "/placeholder.svg?height=100&width=100",
     },
     categories: [
@@ -452,7 +452,7 @@ Data-driven recruitment isn't about collecting more data—it's about making bet
     updated_at: "2024-01-03T11:20:00Z",
     published_at: "2024-01-03T11:20:00Z",
     profiles: {
-      full_name: "iinventure Team",
+      full_name: "inventure Team",
       avatar_url: "/placeholder.svg?height=100&width=100",
     },
     categories: [
@@ -609,7 +609,7 @@ Creating exceptional candidate experiences requires commitment, but the payoff�
     updated_at: "2024-01-01T08:00:00Z",
     published_at: "2024-01-01T08:00:00Z",
     profiles: {
-      full_name: "iinventure Team",
+      full_name: "inventure Team",
       avatar_url: "/placeholder.svg?height=100&width=100",
     },
     categories: [

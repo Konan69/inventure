@@ -15,7 +15,7 @@ export function signIn(prevState: any, formData: FormData) {
   }
 
   // Simple mock authentication for demo
-  if (email === "admin@iinventure.com" && password === "admin123") {
+  if (email === "admin@inventure.com" && password === "admin123") {
     return { success: true }
   }
 

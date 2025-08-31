@@ -80,7 +80,7 @@ export default function ContactPage() {
                   className="w-full font-bold text-lg py-6 bg-primary text-primary-foreground hover:bg-primary/90"
                   asChild
                 >
-                  <a href="mailto:hiring@iinventure.com">Start Hiring Now</a>
+                  <a href="mailto:hiring@inventure.com">Start Hiring Now</a>
                 </Button>
               </CardContent>
             </Card>
@@ -110,7 +110,7 @@ export default function ContactPage() {
                   className="w-full font-bold text-lg py-6 border-primary/50 hover:bg-primary hover:text-primary-foreground"
                   asChild
                 >
-                  <a href="mailto:partners@iinventure.com">Apply to Join</a>
+                  <a href="mailto:partners@inventure.com">Apply to Join</a>
                 </Button>
               </CardContent>
             </Card>
@@ -140,7 +140,7 @@ export default function ContactPage() {
                   className="w-full font-bold text-lg py-6 border-primary/50 hover:bg-primary hover:text-primary-foreground"
                   asChild
                 >
-                  <a href="mailto:hello@iinventure.com">Get in Touch</a>
+                  <a href="mailto:hello@inventure.com">Get in Touch</a>
                 </Button>
               </CardContent>
             </Card>
@@ -214,7 +214,7 @@ export default function ContactPage() {
                   className="font-bold text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg"
                   asChild
                 >
-                  <a href="mailto:hiring@iinventure.com">Start Hiring Today</a>
+                  <a href="mailto:hiring@inventure.com">Start Hiring Today</a>
                 </Button>
                 <Button
                   size="lg"

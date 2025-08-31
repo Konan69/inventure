@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "iinventure – Recruiting Without Limits",
+  title: "inventure – Recruiting Without Limits",
   description:
     "Recruitment, rewritten: revenue sharing, a marketing engine, a competitive broker community, and an AI-driven learning platform.",
   generator: "v0.app",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     "revenue sharing",
     "talent acquisition",
   ],
-  authors: [{ name: "iinventure" }],
+  authors: [{ name: "inventure" }],
   openGraph: {
-    title: "iinventure – Recruiting Without Limits",
+    title: "inventure – Recruiting Without Limits",
     description:
       "Speed and scale for modern hiring. Trusted by 500+ companies.",
     type: "website",
