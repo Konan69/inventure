@@ -17,7 +17,7 @@ export default function BlogContent() {
   const [featuredPost, ...regularPosts] = publishedPosts;
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-6 py-16">
       {featuredPost && (
         <article className="mb-24 group cursor-pointer">
           <Link href={`/blog/${featuredPost.slug}`} className="block">

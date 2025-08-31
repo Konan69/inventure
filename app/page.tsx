@@ -11,11 +11,7 @@ export default function HomePage() {
       <Pointer className="fill-primary" />
 
       <HeroSection
-        title="Recruiting Without Limits"
-        subtitle="Speed and Scale"
-        body="Connect with top recruiters who only get paid when they deliver results. No retainers, no excuses, no mediocre candidates."
         valueProp="Ready to fill critical roles in days, not months?"
-        socialProof=""
         primaryCTA={{ href: "/contact", label: "Find Your Next Hire" }}
         secondaryCTA={{ href: "/services", label: "See How It Works" }}
         rightVisual={
@@ -113,13 +109,9 @@ export default function HomePage() {
         }
       />
 
-      <div className="py-12">
-        <MetricsDisplay />
-      </div>
+      <MetricsDisplay />
 
-      <div className="py-12">
-        <ServicesAndPlatform />
-      </div>
+      <ServicesAndPlatform />
 
       <div className="py-16">
         <CTASection

@@ -11,11 +11,7 @@ import { Highlighter } from "@/components/magicui/highlighter";
 import type { ReactNode } from "react";
 
 export interface HeroSectionProps {
-  title: string;
-  subtitle: string;
-  body: string;
   valueProp: string;
-  socialProof: string;
   primaryCTA: { href: string; label: string };
   secondaryCTA: { href: string; label: string };
   className?: string;
@@ -23,11 +19,7 @@ export interface HeroSectionProps {
 }
 
 export function HeroSection({
-  title,
-  subtitle,
-  body,
   valueProp,
-  socialProof,
   primaryCTA,
   secondaryCTA,
   className,
@@ -37,7 +29,7 @@ export function HeroSection({
     <section className={cn("relative overflow-hidden", className)}>
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-32">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             {/* Header Section */}
@@ -92,30 +84,30 @@ export function HeroSection({
               <p className="text-xl lg:text-2xl font-normal text-foreground leading-relaxed">
                 Connect with top recruiters who{" "}
                 <Highlighter color="hsl(var(--primary))" action="underline">
-                  only get paid when they deliver results
+                  only get paid when we deliver results
                 </Highlighter>
                 . No retainers, no excuses, no mediocre candidates.
               </p>
 
-              <div className="space-y-6">
+              <div className="border-l-2 border-primary/30 rounded-l-md pl-6 bg-primary/5 space-y-4">
                 <p className="text-lg text-muted-foreground font-medium">
                   {valueProp}
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="flex items-center gap-3 p-4 bg-muted/20 rounded-lg border border-border/50">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
                     <span className="text-sm font-medium text-foreground">
                       Revenue sharing
                     </span>
                   </div>
-                  <div className="flex items-center gap-3 p-4 bg-muted/20 rounded-lg border border-border/50">
+                  <div className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
                     <span className="text-sm font-medium text-foreground">
                       Elite brokers
                     </span>
                   </div>
-                  <div className="flex items-center gap-3 p-4 bg-muted/20 rounded-lg border border-border/50">
+                  <div className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-green-600 flex-shrink-0" />
                     <span className="text-sm font-medium text-foreground">
                       AI matching
@@ -151,7 +143,7 @@ export function HeroSection({
 
           {/* Right Visual */}
           <div className="relative">
-            <div className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden bg-muted/5  border-muted/20">
+            <div className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden bg-muted/5 ">
               {rightVisual ?? (
                 <div className="absolute inset-0 bg-gradient-to-br from-muted/10 to-muted/30 flex items-center justify-center">
                   <div className="text-center space-y-4 p-8">

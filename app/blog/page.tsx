@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 const BlogContent = dynamic(() => import("./blog-content"), {
   ssr: false,
   loading: () => (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-6 py-16">
       <div className="animate-pulse space-y-8">
         <div className="h-96 bg-muted rounded-lg"></div>
         <div className="grid gap-8 md:grid-cols-2">

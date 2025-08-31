@@ -28,7 +28,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden border-b">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10" />
-        <div className="relative max-w-7xl mx-auto px-6 py-12">
+        <div className="relative max-w-7xl mx-auto px-6 py-16">
           <div className="max-w-4xl space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <Sparkles className="w-4 h-4" />

@@ -38,7 +38,7 @@ export function MetricsDisplay({
 }: MetricsDisplayProps) {
   return (
     <section className="bg-muted/50">
-      <div className="max-w-4xl mx-auto px-2 py-16 text-center">
+      <div className="max-w-4xl mx-auto px-2 py-12 text-center">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {metrics.map((m, i) => {
             const shouldAnimate = shouldAnimateMetric(m.value);

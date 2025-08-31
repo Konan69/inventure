@@ -74,7 +74,7 @@ export function CommunitySection({}: CommunitySectionProps) {
   const topThree = posts.slice(0, 3);
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 space-y-20">
+    <section className="max-w-7xl mx-auto px-6 py-16 space-y-20">
       {/* Features Grid */}
       <div className="space-y-12">
         <div className="text-center space-y-4">
