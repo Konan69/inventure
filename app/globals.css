@@ -40,27 +40,28 @@
   --sidebar-ring: 99 102 241; /* Blue sidebar ring */
 }
 
+/*
 .dark {
-  /* Keeping your custom dark theme colors with slight professional adjustments */
-  --background: 22 21 19; /* Your custom dark background */
-  --foreground: 253 252 251; /* Your custom light text */
-  --card: 22 21 19;
+
+  --background: 22 21 19; 
+    --foreground: 253 252 251; 
+    --card: 22 21 19;
   --card-foreground: 253 252 251;
   --popover: 22 21 19;
   --popover-foreground: 253 252 251;
   --primary: 253 252 251;
   --primary-foreground: 22 21 19;
-  --secondary: 99 102 241; /* Professional blue accent for dark theme */
+  --secondary: 99 102 241; 
   --secondary-foreground: 255 255 255;
   --muted: 41 39 35;
   --muted-foreground: 161 158 154;
-  --accent: 99 102 241; /* Professional blue accent */
+  --accent: 99 102 241; 
   --accent-foreground: 255 255 255;
   --destructive: 239 68 68;
   --destructive-foreground: 253 252 251;
-  --border: 28 26 23; /* Your custom dark borders */
+  --border: 28 26 23; 
   --input: 28 26 23;
-  --ring: 99 102 241; /* Professional blue ring */
+  --ring: 99 102 241; 
   --chart-1: 99 102 241;
   --chart-2: 75 85 99;
   --chart-3: 34 197 94;
@@ -68,13 +69,13 @@
   --chart-5: 239 68 68;
   --sidebar: 22 21 19;
   --sidebar-foreground: 253 252 251;
-  --sidebar-primary: 99 102 241; /* Professional blue */
+  --sidebar-primary: 99 102 241; 
   --sidebar-primary-foreground: 255 255 255;
-  --sidebar-accent: 34 197 94; /* Green accent */
+  --sidebar-accent: 34 197 94; 
   --sidebar-accent-foreground: 255 255 255;
-  --sidebar-border: 28 26 23; /* Your custom dark border */
+  --sidebar-border: 28 26 23;
   --sidebar-ring: 99 102 241;
-}
+*/
 
 @theme inline {
   /* Added Inter font configuration for thick, modern typography */

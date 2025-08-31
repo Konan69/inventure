@@ -8,12 +8,9 @@ import {
   FileText,
   Settings,
   LogOut,
-  Moon,
-  Sun,
   Menu,
   X,
 } from "lucide-react";
-import { useTheme } from "next-themes";
 import { useState, useMemo } from "react";
 
 const navigation = [
@@ -24,7 +21,6 @@ const navigation = [
 
 export default function AdminSidebar() {
   const pathname = usePathname();
-  const { theme, setTheme } = useTheme();
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   const navigationItems = useMemo(
@@ -89,24 +85,6 @@ export default function AdminSidebar() {
       <nav className="flex-1 space-y-1 px-2 py-4">{navigationItems}</nav>
 
       <div className="border-t border-border p-4 space-y-2">
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className={cn(
-            "w-full text-muted-foreground hover:text-accent-foreground",
-            isCollapsed ? "justify-center" : "justify-start"
-          )}
-          title={isCollapsed ? "Toggle Theme" : undefined}
-        >
-          {theme === "dark" ? (
-            <Sun className={cn("h-4 w-4", !isCollapsed && "mr-3")} />
-          ) : (
-            <Moon className={cn("h-4 w-4", !isCollapsed && "mr-3")} />
-          )}
-          {!isCollapsed && "Toggle Theme"}
-        </Button>
-
         <Button
           variant="ghost"
           size="sm"

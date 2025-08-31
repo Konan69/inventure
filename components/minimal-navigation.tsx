@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ThemeToggle } from "./theme-toggle";
 import { Button } from "./ui/button";
 import { Menu } from "lucide-react";
 import {
@@ -50,7 +49,6 @@ export function MinimalNavigation() {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
-          <ThemeToggle />
           <div className="hidden lg:block">
             <Button asChild size="sm" className="font-semibold">
               <Link href="/contact">Find Your Next Hire</Link>
